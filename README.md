@@ -39,6 +39,24 @@ npm run build
 npm run preview
 ```
 
+## deploy su vercel
+
+questa app ora usa `@sveltejs/adapter-vercel`, quindi il deploy su vercel e' diretto.
+
+1. collega il repository su vercel (`new project` -> import repository).
+2. lascia framework preset su `sveltekit` (auto-detect).
+3. usa questi comandi (di default in genere sono gia' corretti):
+
+```bash
+install command: npm install
+build command: npm run build
+output directory: .vercel/output
+```
+
+4. esegui deploy.
+
+nota: gli endpoint server (`/api/search`, `/api/song`, `/api/artist`) vengono pubblicati come funzioni vercel tramite adapter.
+
 ## 🔌 endpoint locali
 
 - `get /api/search?q=...` 🔎

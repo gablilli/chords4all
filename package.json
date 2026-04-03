@@ -1,0 +1,29 @@
+{
+  "name": "chords4all",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "postinstall": "svelte-kit sync",
+    "predev": "node scripts/ensure-deps.mjs",
+    "prebuild": "node scripts/ensure-deps.mjs",
+    "precheck": "node scripts/ensure-deps.mjs",
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^3.2.0",
+    "@sveltejs/kit": "^2.8.3",
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "@types/node": "^22.10.2",
+    "svelte": "^5.2.9",
+    "svelte-check": "^4.0.7",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}

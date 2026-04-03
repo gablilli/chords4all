@@ -1,0 +1,12 @@
+node_modules/
+.svelte-kit/
+dist/
+.DS_Store
+.env
+.env.*
+!.env.example
+.vscode/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

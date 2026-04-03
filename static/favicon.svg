@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Chords4All">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#56d7ff" />
+      <stop offset="1" stop-color="#ff9e44" />
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#111a2a" stroke="url(#g)" stroke-width="3" />
+  <path d="M18 20h4v24h-4zm8-6h4v36h-4zm8 10h4v20h-4zm8-4h4v28h-4z" fill="url(#g)" />
+</svg>
